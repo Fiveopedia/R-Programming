@@ -1,0 +1,13 @@
+# R is a programming language which can be defined as the language of data analysis. 
+# When it comes to feature it is FREE and OPEN-SOURCE as it has collaborative community of developers and users,
+# It runs on multiple platforms like windows macos and linux, it can be also integrate with other programming language like you create some analytic tool using R and beatufy the website using javascript HTML CSS to showcase your work, 
+# It offers it user vast collection of packages and libraries for various task majorly related to Data Analysis, it provides excellent data visualization capabilities through packages like ggplot2, it excels in data manipulation using packages like dplyr.
+
+#DIVE INTO THE R PROGRAMMING
+
+#basic thing you can do with R programming comes like just have string or adding substracting without use of any fuction you can try this by taking example as "HELLO" as string and 5+5 as addition and 5-2 as substraction
+#just copy paste code as it is from line 11 12 and 13 on any online compiler like https://www.mycompiler.io/new/r you will get output as "HELLO" 10 3 in you output section 
+
+"HELLO"
+5+5
+5-2
