@@ -1,0 +1,27 @@
+# A variable is a fundamental concept used to store and manage data. 
+# It is like a container that holds a value, and you can give it a name to reference that value. 
+# Variables are essential for working with data and performing operations in programs
+
+#there are some rules to write your variables
+  # 1) you can only use "letters", "numbers", "_", "."
+  # 2) variables should begin with letters not with numbers or underscore or dot
+  # 3) Variables are CASE-SENSITIVE that means "name" and "Name" are diffrent variables
+
+#There are diffrent types to create and assign value to variables with "=", "->" and "<-" they are explain as a code in line 12 11 and 13
+
+var_1 = "FIVEOPEDIA"
+var_1 -> "FIVEOPEDIA"
+"FIVEOPEDIA" <- var_1
+
+generally in R we only use var_1 -> "Fiveopedia" .
+
+#FINDING A VARIABLE
+
+  ls() is the command which is use to print all the variable we have in our workspaceand to find any specific variable we use print(ls(pattern="var")) it find all the variables which has var present in there name
+
+#DELETING A VARIABLE
+
+  Variables can be deleted by using the rm() function for example,
+
+    rm(var_1) #it deletes var_1 can be checked using
+    print(var_1) #it shows error as it has been already deleted
