@@ -1,0 +1,66 @@
+#R is a dynamically typed language, which means that the data type of a variable is determined automatically based on the value assigned to it. 
+#R provides several fundamental data types, and here are some of the most commonly used ones:
+
+1) Numeric: This data type represents real numbers. It includes both integers and floating-point numbers.
+
+Example:
+
+x <- 12    # Integer
+y <- 3.14 # Floating-point
+
+2) Character: Character data type represents text. You can create character variables by enclosing text in single or double quotes.
+
+Example:
+
+name <- "Fiveopedia"
+
+3) Logical: Logical data type represents binary values, which can be either TRUE or FALSE. It's often used for conditions and Boolean operations.
+
+Example:
+
+is_analyst <- TRUE
+is_aesthetic <- FALSE
+
+4) Factor: A factor is a categorical data type used for nominal and ordinal data. It's represented as a vector of predefined labels or levels.
+
+Example:
+
+gender <- factor(c("Male", "Female", "Male", "Female"))
+## NOTE c() IS USED TO CREATE VECTORS OR ARRAY IT STANDS FOR COMBINE OR CONCATINATE
+
+5) Integer: In addition to the general numeric data type, R has a specific data type for integers, which can be useful for memory efficiency .
+
+Example:
+
+count <- as.integer(10)
+
+6) Complex: The complex data type represents complex numbers with both real and imaginary parts.
+
+Example:
+
+z <- 2 + 3i
+
+7) Date and Time: R provides data types for date and time. For example, Date and POSIXct represent dates and timestamps.
+
+Example:
+
+birthdate <- as.Date("1990-05-15")
+timestamp <- as.POSIXct("2023-11-06 10:30:00")
+
+8) Vector: A vector is a one-dimensional array that can hold multiple values of the same data type. R's most basic data structure is a vector.
+
+Example:
+
+numbers <- c(1, 2, 3, 4, 5)
+
+9) List: A list is a collection of objects that can be of different data types. Lists are versatile and can hold various types of data.
+
+Example:
+
+person <- list(name = "Fiveopedia", age = 23, is_analyst = TRUE)
+
+10) Data Frame: A data frame is a two-dimensional table-like data structure that can hold different types of data. It's commonly used for working with structured data.
+
+Example:
+
+df <- data.frame(name = c("FIVEO", "PEDIA"), age = c(25, 30))
