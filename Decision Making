@@ -1,0 +1,66 @@
+Decision making in R, like in most programming languages, involves using conditional statements to control the flow of your code based on specific conditions or criteria. 
+R offers various ways to make decisions, but the most common method is using the if, else if, and else statements. 
+Here's how decision making works in R:
+
+
+1. if Statement:
+The if statement is used to execute a block of code if a specified condition is true. If the condition is false, the code block is skipped.
+
+# Example 1: Basic if statement
+x <- 10
+if (x > 5) {
+  print("x is greater than 5")
+}
+
+
+2. if-else Statement:
+The if-else statement allows you to specify an alternative code block to be executed if the condition is false.
+
+# Example 2: if-else statement
+x <- 3
+if (x > 5) {
+  print("x is greater than 5")
+} else {
+  print("x is less than or equal to 5")
+}
+
+
+3. else if Statement:
+When you have multiple conditions to check, you can use else if to specify additional conditions to be evaluated if the previous conditions are false.
+
+# Example 3: else if statement
+x <- 8
+if (x > 10) {
+  print("x is greater than 10")
+} else if (x > 5) {
+  print("x is greater than 5 but not greater than 10")
+} else {
+  print("x is 5 or less")
+}
+
+
+4. Nested if Statements:
+You can nest if statements within other if or else blocks to create more complex decision-making logic.
+
+# Example 4: Nested if statements
+x <- 15
+if (x > 10) {
+  if (x <= 15) {
+    print("x is between 10 and 15")
+  } else {
+    print("x is greater than 15")
+  }
+} else {
+  print("x is 10 or less")
+}
+
+
+5. Vectorized If-Else with ifelse:
+The ifelse function allows you to perform conditional operations on vectors or data frames, returning values based on a condition.
+
+# Example 5: Using ifelse
+x <- c(2, 6, 8, 10)
+result <- ifelse(x > 5, "Greater", "Less or Equal")
+print(result)
+
+These are the fundamental structures for decision making in R.
